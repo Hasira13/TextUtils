@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Hasira13/TextUtils/static/css/main.dc4d6ff2.css",
+    "main.js": "/Hasira13/TextUtils/static/js/main.f02b2232.js",
+    "static/js/453.ed3810f9.chunk.js": "/Hasira13/TextUtils/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Hasira13/TextUtils/index.html",
+    "main.dc4d6ff2.css.map": "/Hasira13/TextUtils/static/css/main.dc4d6ff2.css.map",
+    "main.f02b2232.js.map": "/Hasira13/TextUtils/static/js/main.f02b2232.js.map",
+    "453.ed3810f9.chunk.js.map": "/Hasira13/TextUtils/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.f02b2232.js"
+  ]
+}

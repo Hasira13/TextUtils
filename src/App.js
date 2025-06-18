@@ -4,13 +4,13 @@ import Alert from './components/Alert';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import React, { useState } from 'react'
-import About from './components/About';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from "react-router-dom";
+// import About from './components/About';
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route,
+//   Link
+// } from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState('light'); //wheather dark mode is on or off
@@ -47,7 +47,7 @@ function App() {
 
   return (
     <>
-    <Router>
+    {/* <Router> */}      {/*for the deployment router function can create problem so that i remived it and in this project its not need to show about,home like or any pages*/}
     {/* <Navbar tittle="TextUtils" aboutText="About US" /> */}
     {/* <Navbar tittle="TextUtils" /> */}
 
@@ -55,7 +55,8 @@ function App() {
     <Navbar title="TextUtils" aboutText="About" mode={mode} toggleMode={toggleMode} />
     <Alert alert={alert}/>
     <div className="container my-3">
-       <Routes>
+      <TextForm showAlert={showAlert} heading = "Enter the text to analyze" mode={mode}/>
+       {/* <Routes>
           <Route exact path="/about" element={<About />} />
           <Route
             exact path="/"
@@ -67,9 +68,9 @@ function App() {
               />
             }
           />
-        </Routes>
+        </Routes> */}
     </div>
-    </Router>
+    {/* </Router> */}
     </>
    
   );
